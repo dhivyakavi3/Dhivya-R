@@ -1,0 +1,62 @@
+/* @import url('http://fonts.googleapis.com/css?family=Poppins&display=swap')::after
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+} */
+.navbar
+{
+    position:sticky;
+    top:0;
+    left: 0;
+    z-index:100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0,.5);
+    background-color: rgb(140, 9, 48);
+}
+.navbar-brand
+{
+    font: size 50px;
+    font-weight: 800;
+    color: rgb(245, 186, 8) !important;
+}
+.navbarsupportedcontent a
+{
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+.btn
+{
+    background: rgb(194, 3, 35);
+    width: 5rem;
+    border-radius: 15px;
+}
+section
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color:rgba(127, 5, 17, 0.659);
+    letter-spacing: 3px;
+    text-shadow: palevioletred;
+    flex-direction: column;
+}
+#home p{
+    font-size: 30px;
+    color: rgb(156, 10, 51);
+}
+#home .input-group
+{
+    width:  40%;
+    height: 45px;
+}
+.signin
+{
+    background-color: rgb(9, 179, 226) !important;
+
+}
+
